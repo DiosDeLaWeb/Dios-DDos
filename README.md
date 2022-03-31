@@ -20,15 +20,15 @@ cd Dios-DDos
 
 chmod +x diosDDos.py
 
-python diosDDos.py
+python2 diosDDos.py
 
 # dicas
 
-Abra outro contra aba e digite o comando
+Abra outro aba e digite o comando
 (Ping) logo depois o nome do site sem o .br & http://
 Para pegar o ip do site
 
-E sugerido que voce use o post 80
+E sugerido que voce use o port 80
 
 Use vpn para esconder seu ip
 
