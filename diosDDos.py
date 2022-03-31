@@ -21,23 +21,6 @@ timeout = time.time()
 #config#two
 os.system("clear")
 print (''' \033[91m
-┏┓░░░░░░░░  ░░░░░┏┓░░░░░┏┓░░░
-┃┗┓┏━┓┏━━┓  ┏━┳━┓┣┫┏━┳┓┏┛┃┏━┓
-┃╋┃┃┻┫┃┃┃┃  ┗┓┃┏┛┃┃┃┃┃┃┃╋┃┃╋┃
-┗━┛┗━┛┗┻┻┛  ░┗━┛░┗┛┗┻━┛┗━┛┗━┛
-\033[92m]
- ''')
-print "\033[91mBEM VINDO AO DIOS DDos
-time.sleep(2)
-print "\033[91mUSE COM SABEDORIA
-time.sleep(2)
-print "\033[91mRECODER BY: Dios De La web
-time.sleep(1)
-print "\033[91mADEUS...
-time.sleep(3)
-
-os.system("clear")
-print (''' \033[91m
 ▐▓█▀▀▀▀▀▀▀▀▀█▓▌░▄▄▄▄▄░
 ▐▓█░░▀░░▀▄░░█▓▌░█▄▄▄█░
 ▐▓█░░▄░░▄▀░░█▓▌░█▄▄▄█░
