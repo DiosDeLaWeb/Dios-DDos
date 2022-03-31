@@ -14,20 +14,22 @@ ass: dios de la web
 
 # Download && install
 
-apt update
-
-apt upgrade
-
-apt install git
-
-apt install python
-
-apt install python2
-
 git clone https://github.com/DiosDeLaWeb/Dios-DDos
 
 cd Dios-DDos
 
 chmod +x diosDDos.py
 
-python2 diosDDos.pyo
+python diosDDos.py
+
+# dicas
+
+Abra outro contra aba e digite o comando
+(Ping) logo depois o nome do site sem o .br & http://
+Para pegar o ip do site
+
+E sugerido que voce use o post 80
+
+Use vpn para esconder seu ip
+
+# obrigado por usar nosso sistema
