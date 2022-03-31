@@ -22,15 +22,15 @@ os.system("clear")
 print "     _ _                 _     _"
 print "  __| (_) ___  ___    __| | __| | ___  ___"
 print " / _` | |/ _ \/ __|  / _` |/ _` |/ _ \/ __|"
-print "| (_| | | (_) \__ \ | (_| | (_| | (_) \__ /|"
+print "| (_| | | (_) \__ \ | (_| | (_| | (_) \__ /"
 print " \__,_|_|\___/|___/  \__,_|\__,_|\___/|___/"
 print "  https://github.com/DiosDeLaWeb/Dios-DDos"
 print
 print "codder by: dios de la web   #dono do script"
 print "new team 404                #melhor team hacker"
 print "dios ddos attack on         #teste sites"
-print "use comando ping            #como pegar ip
-print "insira o ip alvo abaixo"    #dica dios
+print "use comando ping            #como pegar ip"
+print "insira o ip alvo abaixo     #dica dios"
 print "logo depois coloque o port  #port sugerido (80)"
 print
 
