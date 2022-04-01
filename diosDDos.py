@@ -24,8 +24,8 @@ print
 print "codder by: dios de la web   #dono do script"
 print "new team 404                #melhor team hacker"
 print "dios ddos attack on         #teste sites"
-print "use comando ping            #como pegar ip
-print "insira o ip alvo abaixo    #dica dios"
+print "use comando ping            #como pegar ip"
+print "insira o ip alvo abaixo     #dica dios"
 print "logo depois coloque o port  #port sugerido (80)"
 print
 
