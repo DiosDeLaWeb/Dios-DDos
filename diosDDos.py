@@ -33,7 +33,7 @@ ip = raw_input("IP Alvo :")
 port = input("Port       :")
 
 os.system("clear")
-os.systrm("figlet ddos go")
+os.system("figlet ddos go")
 print "[                    ] 0% "
 time.sleep(5)
 print "[>>>>>               ] 25% "
