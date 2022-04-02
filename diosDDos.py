@@ -42,7 +42,8 @@ print '''____       ______      _____       ____
  \ \ \ \ \    \ \ \     \ \ \ \ \   \/_\__ \   
   \ \ \_\ \    \_\ \__   \ \ \_\ \    /\ \L\ \ 
    \ \____/    /\_____\   \ \_____\   \ `\____\
-   | https://github.com/DiosDeLaWeb/Dios-DDos |'''
+| https://github.com/DiosDeLaWeb/Dios-DDos |
+'''
 print
 print "codder by: dios de la web   #dono do script"
 print "new team 404                #melhor team hacker"
