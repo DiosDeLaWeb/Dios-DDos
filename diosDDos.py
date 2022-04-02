@@ -40,7 +40,7 @@ print "\033[92m========================================\033[0m"
 print "https://github.com/DiosDeLaWeb/Dios-DDos"
 print
 print "codder by: dios de la web   #dono do script"
-print "new team 404                #melhor team hacker"
+print "team: SkullS society 404    #melhor team hacker"
 print "dios ddos attack on         #teste sites"
 print "use comando ping            #como pegar ip"
 print "insira o ip alvo abaixo     #dica dios"
