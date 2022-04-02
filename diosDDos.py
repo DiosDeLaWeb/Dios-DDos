@@ -51,7 +51,7 @@ ip = raw_input("IP Alvo :")
 port = input("Port       :")
 
 os.system("clear")
-print "[+] Preparando..."
+print "[+] \033[92mPreparando...\033[0m"
 time.sleep(3)
 print "\033[92m ____  ____   ___  ____     ____  ___\033[0m"
 print "\033[92m|  _ \|  _ \ / _ \/ ___|   / ___|/ _ \|\033[0m"
